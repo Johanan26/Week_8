@@ -12,7 +12,7 @@ public class CreateFile {
 
         try{
             if(myFile.createNewFile()){
-                System.out.println("File created successfully at " + myFile.getAbsoluteFile());
+                System.out.println("File created successfully at " + myFile.getAbsolutePath());
             }
             else{
                 System.out.println("File Already exists at " + myFile.getAbsolutePath());
